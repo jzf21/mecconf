@@ -15,14 +15,14 @@ const Hero = (props: Props) => {
        </div>
    
        <div className='flex flex-row justify-center gap-2 max-h-   '>
-        <Image src={logo} alt="logo" className="h-full mt-2" />
+        {/* <Image src={logo} alt="logo" className="h-full mt-2" /> */}
          <h1 className=" text-[4rem] md:text-[6rem] herotext dark:text-white my-auto">
-          MEC CONF
+          MEC HACK
         </h1>
        </div>
       
         <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36 uppercase">
-          October 10 <br/>
+          september 23rd and 24th<br/>
           Govt. Model Engineering College, Thrikkakara
          
           
