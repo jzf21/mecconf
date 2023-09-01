@@ -7,7 +7,7 @@ const CountdownTimer = ({ targetDate }) => {
   useEffect(() => {
     const timer = setInterval(() => {
       setRemainingTime(calculateTimeRemaining());
-    }, 1);
+    }, []);
   });
 
   function calculateTimeRemaining() {

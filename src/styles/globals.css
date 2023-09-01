@@ -22,19 +22,14 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-image: url('../../public/assets/bgmain.svg');
+  background-image: url('/assets/bgmain.svg');
   
   background-repeat: no-repeat;
   background-size: cover;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 0.1rem;
 }
-.countdown {
-    font-weight: 700;
-    font-size: 3.85rem;
-    color: #ffffff;
-    -webkit-text-stroke: 2px #CC1848;
-}
+
 
 .herotext{
   color: #FFF;
