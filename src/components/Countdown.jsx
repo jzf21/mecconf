@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from "react";
 
-
 const CountdownTimer = ({ targetDate }) => {
   const [remainingTime, setRemainingTime] = useState(calculateTimeRemaining());
 
   useEffect(() => {
     const timer = setInterval(() => {
       setRemainingTime(calculateTimeRemaining());
-    }, []);
-  });
+    }, 1000); // Update the interval to 1000ms for 1-second updates
+
+    return () => clearInterval(timer); // Clear the interval on unmount
+  }, []); // Empty dependency array for client-side rendering
 
   function calculateTimeRemaining() {
     const now = new Date().getTime();
@@ -38,35 +39,41 @@ const CountdownTimer = ({ targetDate }) => {
   }
 
   return (
-    <div className="mb-5 ">
+    <div className="mb-5">
       <h3 className="text-5xl text-center mb-5 uppercase font-semibold">
         Countdown
       </h3>
-      <div className="w-full min-h-[200px] flex flex-col items-center justify-center ">
+      <div className="w-full min-h-[200px] flex flex-col items-center justify-center">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-16 text-center auto-cols-max">
-          <div className="flex flex-col min-w-[120px] min-h-[120px] p-4 bg-neutral rounded-box text-neutral-content border-4 border-red   ">
-            <span className="countdown ">
-              <span style={{ "--value": 15 }}>{remainingTime.days}</span>
+          <div className="flex flex-col min-w-[120px] min-h-[120px] p-4 bg-neutral rounded-box text-neutral-content border-4 border-red">
+            <span className="countdown">
+              <span style={{ "--value": remainingTime.days }}>
+                {remainingTime.days}
+              </span>
             </span>
             days
           </div>
           <div className="flex flex-col min-w-[120px] min-h-[120px] p-4 bg-neutral rounded-box text-neutral-content border-4 border-red">
-            <span className=" countdown">
-              <span style={{ "--value": 10 }}>{remainingTime.hours}</span>
+            <span className="countdown">
+              <span style={{ "--value": remainingTime.hours }}>
+                {remainingTime.hours}
+              </span>
             </span>
             hours
           </div>
           <div className="flex flex-col min-w-[120px] min-h-[120px] p-4 bg-neutral rounded-box text-neutral-content border-4 border-red">
-            <span className="countdown ">
-              <span className="" style={{ "--value": 24 }}>
+            <span className="countdown">
+              <span style={{ "--value": remainingTime.minutes }}>
                 {remainingTime.minutes}
               </span>
             </span>
             min
           </div>
           <div className="flex flex-col min-w-[120px] min-h-[120px] p-4 bg-neutral rounded-box text-neutral-content border-4 border-red">
-            <span className="countdown ">
-              <span style={{ "--value": 51 }}>{remainingTime.seconds}</span>
+            <span className="countdown">
+              <span style={{ "--value": remainingTime.seconds }}>
+                {remainingTime.seconds}
+              </span>
             </span>
             sec
           </div>
