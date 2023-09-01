@@ -71,7 +71,7 @@ const Navbar = () => {
         </Link>
         <Link
           className="group text-white transition-all duration-300 ease-in-out md:ml-8"
-          href="/becomesponsor"
+          href="/#becomesponsor"
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration ease-out">
             Sponsors
