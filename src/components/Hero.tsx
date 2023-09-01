@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import logo from '../assets/logomecocnf.svg'
+import logo from '../../public/assets/MEC HACK LOGO WHITE T 1.svg'
 import iee from '../assets/IEEE MEC SB LOGO WHITE T 1.svg'
 import computersociety from '../assets/CSLogo-200x70 1.svg'
 type Props = {}
