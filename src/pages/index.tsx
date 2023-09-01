@@ -10,7 +10,7 @@ import bgmain from'../assets/bgmain.svg'
 const inter = Inter({ subsets: ['latin'] })
  
 const NoSSR = dynamic(() => import('../components/Countdown'), { ssr: false })
-
+const Nav = dynamic(() => import('../components/Navbar'), { ssr: false })
 export default function Home() {
  
 
@@ -20,7 +20,7 @@ export default function Home() {
     
       // className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
-      <Navbar/>
+      <Nav/>
       <Hero/>
        <NoSSR targetDate={new Date('September 23, 2023 09:30:00').getTime()}/>
       <About/>
