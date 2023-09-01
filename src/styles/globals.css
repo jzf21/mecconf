@@ -19,7 +19,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-image: url("/assets/bgmain.svg");
+  background-image: url("assets/bgmain.svg");
 
   background-repeat: no-repeat;
   background-size: cover;
