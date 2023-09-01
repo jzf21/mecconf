@@ -4,13 +4,14 @@ import Hero from '@/components/Hero'
 import About from '@/components/About'
 import CountdownTimer from '@/components/Countdown'
 import Navbar from '@/components/Navbar'
-
+import bgmain from'../assets/bgmain.svg'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <main
+    
       // className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
       <Navbar/>
