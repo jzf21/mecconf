@@ -17,6 +17,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/Countdown.jsx", "src/components/Navbar.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/Countdown.jsx", "src/components/Navbar.jsx", "src/components/About.tsx", "src/components/Hero.jsx"],
   "exclude": ["node_modules"]
 }

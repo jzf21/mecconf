@@ -7,15 +7,15 @@ const Navbar = () => {
   const [scrollbar, setscrollbar] = useState(false);
   const [mobilenav, setmobilenav] = useState(false);
 
-  const handleScroll = () => {
-    if (window.scrollY > 50) {
-      setscrollbar(true);
-    } else {
-      setscrollbar(false);
-    }
-  };
+  // const handleScroll = () => {
+  //   if (window.scrollY > 50) {
+  //     setscrollbar(true);
+  //   } else {
+  //     setscrollbar(false);
+  //   }
+  // };
 
-  window.addEventListener("scroll", handleScroll);
+  // window.addEventListener("scroll", handleScroll);
   const handleHamburger = () => {
     setmobilenav(!mobilenav);
   };

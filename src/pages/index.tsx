@@ -15,7 +15,7 @@ export default function Home() {
     >
       <Navbar/>
       <Hero/>
-       <CountdownTimer targetDate={new Date('September 23, 2023 09:30:00').getTime()}/>
+       {/* <CountdownTimer targetDate={new Date('September 23, 2023 09:30:00').getTime()}/> */}
       <About/>
      
      
