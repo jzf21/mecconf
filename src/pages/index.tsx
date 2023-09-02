@@ -6,6 +6,8 @@ import About from '@/components/About'
 import Contact from "../components/contact/contact"
 import Openhack from "../components/openhack/openhack"
 import Events from "../components/Events/event"
+import Register from "../components/registration/registration"
+import Tracks from "@/components/track/Tracks"
 
 import Navbar from '@/components/Navbar'
 import bgmain from'../assets/bgmain.svg'
@@ -28,6 +30,8 @@ export default function Home() {
       <Hero/>
        <NoSSR targetDate={new Date('September 23, 2023 09:30:00').getTime()}/>
       <About/>
+      <Tracks/>
+      <Register/>
       {/* <Events/> */}
       {/* <Openhack/> */}
       {/* <Contact/> */}
