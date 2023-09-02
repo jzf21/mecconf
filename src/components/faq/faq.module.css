@@ -3,3 +3,13 @@
     font-size: 200%;
     text-align: center;
 }
+.faqbody
+{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.faqcontainer
+{
+    display: flex;
+    flex-direction: column;
+}

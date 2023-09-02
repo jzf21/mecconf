@@ -10,9 +10,9 @@ function faqcard(props) {
   return (
     <div className={styles.faqcardbody}>
       <div className={styles.faqcardcontent}>
-      <p className={styles.faqcardquestion}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nam perspiciatis iste sapiente maxime temporibus sequi expedita quam unde repudiandae!</p>
+      <p className={styles.faqcardquestion}>{props.question}</p>
       
-      {open && <p className={styles.faqcardanswer}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nam perspiciatis iste sapiente maxime temporibus sequi expedita quam unde repudiandae!</p>}
+      {open && <p className={styles.faqcardanswer}>{props.answer}</p>}
       
     </div>
     <div className={styles.faqcardopen} onClick={toggleOpen}>

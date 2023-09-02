@@ -36,7 +36,7 @@ export default function Home() {
       <Faq/>
       {/* <Events/> */}
       {/* <Openhack/> */}
-      {/* <Contact/> */}
+      <Contact/>
     </div>
      
      
