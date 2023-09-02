@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <div
       className={`w-screen h-[70px] flex flex-row items-center justify-between px-6 md:px-0 md:justify-around py-3 fixed top-0 z-40  ${
-        scrollbar ? "backdrop-blur-sm bg-opacity-20 bg-white text-white" : "bg-transparent text-white"
+        scrollbar ? "backdrop-blur-xl bg-opacity-50 bg-white text-white" : "bg-transparent text-white"
       }`}
     >
       <Link href="/">
