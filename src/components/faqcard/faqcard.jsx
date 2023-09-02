@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './faqcard.module.css'
 import { useState } from 'react'
 
-function faqcard(props) {
+function Faqcard(props) {
   const [open, setOpen] = useState(false)
   const toggleOpen = () => {
     setOpen(!open);
@@ -22,4 +22,4 @@ function faqcard(props) {
   )
 }
 
-export default faqcard
+export default Faqcard
