@@ -16,7 +16,7 @@ const Hero = (props: Props) => {
    
        <div className='flex flex-row justify-center gap-2 max-h-   '>
         {/* <Image src={logo} alt="logo" className="h-full mt-2" /> */}
-         <h1 className=" text-[4rem] md:text-[6rem] herotext dark:text-white my-auto">
+         <h1 className="text-shadows text-[4rem] md:text-[6rem] herotext dark:text-white my-auto">
           MEC HACK
         </h1>
        </div>
