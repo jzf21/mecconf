@@ -3,7 +3,7 @@ import styles from "./tracks.module.css"
 import Image from 'next/image';
 import Fintech from "../../assets/fintech.svg" 
 import Blockchain from "../../assets/blockchain.svg" 
-import AI from "../../assets/AI.svg" 
+import AI from "../../assets/ai.svg" 
 
 const Tracks = () => {
   return (
