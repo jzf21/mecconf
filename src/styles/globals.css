@@ -25,6 +25,14 @@ body {
   background-size: cover;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   letter-spacing: 0.1rem;
+  
+}
+.mainbg{
+   background-image: url("/bgmain.svg");
+  
+
+  background-size: cover;
+
 }
 
 .herotext {

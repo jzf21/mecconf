@@ -22,12 +22,16 @@ export default function Home() {
     
       // className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
-      <Nav/>
+    <div className="mainbg">
+        <Nav/>
       <Hero/>
        <NoSSR targetDate={new Date('September 23, 2023 09:30:00').getTime()}/>
       <About/>
-      <Openhack/>
+    </div>
+  <div className="mainbg">
+        <Openhack/>
       <Contact/>
+    </div>
      
      
    
