@@ -28,7 +28,7 @@ export default function Home() {
       <Hero/>
        <NoSSR targetDate={new Date('September 23, 2023 09:30:00').getTime()}/>
       <About/>
-      <Events/>
+      {/* <Events/> */}
       <Openhack/>
       <Contact/>
     </div>
