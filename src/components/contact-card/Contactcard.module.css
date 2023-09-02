@@ -1,0 +1,16 @@
+.contactname
+{
+    color: #4A4AFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.contactcard
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 150%;
+    font-family:sans-serif
+}

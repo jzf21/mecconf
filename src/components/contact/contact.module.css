@@ -1,0 +1,16 @@
+.contacttitle
+{
+    font-size: 250%;
+    justify-content: center;
+    text-align: center;
+    color: #4A4AFF;
+    font-family: sans-serif;
+}
+.contactholder
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15vw;
+    justify-content: center;
+    padding: 50px 100px;
+}
