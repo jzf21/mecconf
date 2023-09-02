@@ -8,7 +8,8 @@ import Openhack from "../components/openhack/openhack"
 import Events from "../components/Events/event"
 import Register from "../components/registration/registration"
 import Tracks from "@/components/track/Tracks"
-import Faq from "@/components/faq/Faq"
+import Faq from "@/components/faq/faq"
+
 
 import Navbar from '@/components/Navbar'
 import bgmain from'../assets/bgmain.svg'
@@ -34,6 +35,8 @@ export default function Home() {
       <Tracks/>
       <Register/>
       <Faq/>
+      
+      
       {/* <Events/> */}
       {/* <Openhack/> */}
       <Contact/>
