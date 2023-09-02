@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Contact from "../components/contact/contact"
+import Openhack from "../components/openhack/openhack"
 
 import Navbar from '@/components/Navbar'
 import bgmain from'../assets/bgmain.svg'
@@ -25,6 +26,7 @@ export default function Home() {
       <Hero/>
        <NoSSR targetDate={new Date('September 23, 2023 09:30:00').getTime()}/>
       <About/>
+      <Openhack/>
       <Contact/>
      
      
