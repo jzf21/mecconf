@@ -31,9 +31,12 @@ export default function Home() {
     <div className="mainbg">
         <Nav/>
       <Hero/>
+       </div>
+       <div className='mainbg'>
        <NoSSR targetDate={new Date('September 23, 2023 09:30:00').getTime()}/>
       <About/>
       </div>
+     
       
       
     <div className="mainbg">

@@ -57,12 +57,12 @@ const Navbar = () => {
         className={`text-white transition-all duration-300 ease-in-out font-medium md:static md:w-max md:h-max md:pt-0 md:bg-transparent md:block md:mr-3 fixed top-0 w-screen pt-24 h-screen text-center  items-center ${
           mobilenav
             ? "right-0 flex flex-col  gap-8 bg-blue-800  z-[-1]  "
-            : "right-full flex flex-col gap-8 text-opacity-0  "
+            : "right-full flex flex-col gap-8 text-opacity-0 mx-auto "
         }`}
       >
         <Link
           href="/"
-          className="group text-white transition-all duration-300 ease-in-out md:ml-8"
+          className="group text-white transition-all duration-300 ease-in-out "
           onClick={handleHamburger}
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration ease-out">
@@ -102,13 +102,13 @@ const Navbar = () => {
             Contact
           </span>
         </Link>
-        <button className="md:hidden block  register text-xl text-white bg-red px-10 py-2">
+        {/* <button className="md:hidden block  register text-xl text-white bg-red px-10 py-2">
           <Link href={"/Register"}>Register</Link>
-        </button>
+        </button> */}
       </div>
-      <button className="md:block hidden register text-xl text-white bg-red px-10 py-2">
+      {/* <button className="md:block hidden register text-xl text-white bg-red px-10 py-2">
         <Link href={"/Register"}>Register</Link>
-      </button>
+      </button> */}
     </div>
   );
 };
