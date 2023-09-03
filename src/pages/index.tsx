@@ -33,8 +33,13 @@ export default function Home() {
       <Hero/>
        <NoSSR targetDate={new Date('September 23, 2023 09:30:00').getTime()}/>
       <About/>
+      </div>
+      
+      
+    <div className="mainbg">
       <Tracks/>
-      <Register/>
+        <Register/>
+    </div>
       {/* <Faq/> */}
 
       
@@ -43,7 +48,7 @@ export default function Home() {
       {/* <Openhack/> */}
       <Contact/>
       <Footer/>
-    </div>
+   
      
      
    
