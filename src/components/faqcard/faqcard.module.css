@@ -16,7 +16,7 @@
 .faqcardanswer
 {   
     /* animation: fadeInDown 0.8s; */
-    transition: all 0.3s;
+    transition: all 0.3s ease-in;
 }
 .faqcardopen
 {
@@ -25,9 +25,8 @@
     background-color: #4A4AFF;
     border-radius: 50px;
     position: absolute;
-    top: 7%;
+    top: -10%;
     right: -1%;
-    transition: 0.3s;
 }
 .faqcardclose
 {
