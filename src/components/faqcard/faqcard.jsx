@@ -11,22 +11,21 @@ function Faqcard(props) {
   
   
   return (
-    <div className={styles.faqcardbody}>
+    <div className={styles.faqcardbody} onClick={toggleOpen}>
       <div className={styles.faqcardcontent}>
-        <p className={styles.faqcardquestion}>{props.question}</p>
-        
-        {open && <p className={styles.faqcardanswer}>{props.answer}</p>}
-        
+        <p className="text-xl">{props.question}</p>
+
+        {open && <p className="text-sm p-2">{props.answer}</p>}
       </div>
-    {!open&&<div className={styles.faqcardopen} onClick={toggleOpen}>
-        
-    </div>}
-    
-   {open && <button className={styles.faqcardclose} onClick={toggleOpen}>
-                X
-              </button>}
+      {!open && <div className={styles.faqcardopen}></div>}
+
+      {open && (
+        <button className={styles.faqcardclose} onClick={toggleOpen}>
+          X
+        </button>
+      )}
     </div>
-  )
+  );
 }
 
 export default Faqcard
