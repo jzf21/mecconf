@@ -8,7 +8,7 @@ type Props = {}
 const Hero = (props: Props) => {
   return (
     <section className=" ">
-      <div className="py-8 px-4 mx-auto h-[100vh] max-w-screen-xl text-center lg:py-16 lg:px-12 flex flex-col justify-evenly">
+      <div className="py-8 px-4 mx-auto h-[100vh] max-w-screen-xl text-center lg:py-16 lg:px-12 flex flex-col items-center justify-evenly">
           <div className='flex flex-row justify-center items-center gap-16 max-h-   '>
         <Image src={computersociety} alt="logo" className="h-full mt-2" />
        <Image src={iee} alt="logo" className="h-full mt-4" />
@@ -16,10 +16,10 @@ const Hero = (props: Props) => {
    
        <div className='flex flex-col justify-center gap-2 max-h-   '>
         {/* <Image src={logo} alt="logo" className="h-full mt-2" /> */}
-         <h1 className="text-shadows text-[4rem] md:text-[7rem] herotext dark:text-white my-auto">
+         <h1 className="text-shadows text-[3rem] lg:text-[4rem] md:text-[7rem] herotext dark:text-white mx-auto">
           MEC.HACK
         </h1>
-        <h2 className='text-white italic  text-[1.7rem] md:text-[2rem]'>Bridging Gaps Through Technology</h2>
+        <h2 className='text-white italic  text-[1.4rem] lg:text-[1.7rem] md:text-[2rem]'>Bridging Gaps Through Technology</h2>
        </div>
        
       
