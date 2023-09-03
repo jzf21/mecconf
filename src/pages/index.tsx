@@ -9,6 +9,7 @@ import Events from "../components/Events/event"
 import Register from "../components/registration/registration"
 import Tracks from "@/components/track/Tracks"
 import Faq from "../components/faq/faq"
+import Footer from "../components/bottomthing/bottomthing"
 
 
 import Navbar from '@/components/Navbar'
@@ -34,12 +35,14 @@ export default function Home() {
       <About/>
       <Tracks/>
       <Register/>
-      <Faq/>
+      {/* <Faq/> */}
+
       
       
       {/* <Events/> */}
       {/* <Openhack/> */}
       <Contact/>
+      <Footer/>
     </div>
      
      
