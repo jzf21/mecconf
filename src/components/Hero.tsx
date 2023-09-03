@@ -12,9 +12,9 @@ const Hero = (props: Props) => {
     <section className=" ">
       <div className="py-8 px-4 mx-auto h-[100vh] max-w-screen-xl text-center lg:py-16 lg:px-12 flex flex-col items-center justify-center gap-16 md:justify-evenly">
           <div className='flex flex-row justify-center items-center gap-16 max-h- mt-4  '>
-        <Image src={computersociety} alt="logo" className="h-24 w-24 md:h-36 md:w-36 -mb-2" />
-       <Image src={iee} alt="logo" className="h-24 w-24 md:h-36 md:w-36 mt-4" />
-       <Image src={foss} alt="logo" className="h-24 w-24 md:h-36 md:w-36 mt-4" />
+        <Image src={computersociety} alt="logo" className="h-16 w-16 md:h-36 md:w-36 -mb-2" />
+       <Image src={iee} alt="logo" className="h-16 w-16 md:h-36 md:w-36 mt-4" />
+       <Image src={foss} alt="logo" className="h-16 w-16 md:h-36 md:w-36 mt-4" />
        </div>
    
        <div className='flex flex-col justify-center  max-h-   '>
