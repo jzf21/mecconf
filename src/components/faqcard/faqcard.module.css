@@ -29,3 +29,13 @@
     right: -1%;
     transition: 0.3s;
 }
+.faqcardclose
+{
+   
+    font-size: 150%;
+    position: absolute;
+    top: 3%;
+    right:2%;
+    transition: 0.3s;
+    transform: rotate(180deg);
+}
