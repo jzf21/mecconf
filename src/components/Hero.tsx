@@ -11,10 +11,10 @@ const Hero = (props: Props) => {
   return (
     <section className=" ">
       <div className="py-8 px-4 mx-auto h-[100vh] max-w-screen-xl text-center lg:py-16 lg:px-12 flex flex-col items-center justify-center gap-16 md:justify-evenly">
-          <div className='flex flex-row justify-center items-center gap-16 max-h-   '>
-        <Image src={computersociety} alt="logo" className="h-36 w-36 mt-2" />
-       <Image src={iee} alt="logo" className="h-36 w-36 mt-4" />
-       <Image src={foss} alt="logo" className="h-36 w-36 mt-4" />
+          <div className='flex flex-row justify-center items-center gap-16 max-h- mt-4  '>
+        <Image src={computersociety} alt="logo" className="h-24 w-24 md:h-36 md:w-36 -mb-2" />
+       <Image src={iee} alt="logo" className="h-24 w-24 md:h-36 md:w-36 mt-4" />
+       <Image src={foss} alt="logo" className="h-24 w-24 md:h-36 md:w-36 mt-4" />
        </div>
    
        <div className='flex flex-col justify-center  max-h-   '>
@@ -23,7 +23,7 @@ const Hero = (props: Props) => {
           MEC.HACK
         </h1> */}
         <Image src={heading} alt="logo" className="h-full " />
-        <h2 className='text-white italic  text-[1.4rem] lg:text-[1.7rem] md:text-[2rem]'>Bridging Gaps Through Technology</h2>
+        <h2 className='text-white italic  text-[1.4rem] lg:text-[1.7rem] md:text-[2rem] -mt-12'>Bridging Gaps Through Technology</h2>
        </div>
        
       

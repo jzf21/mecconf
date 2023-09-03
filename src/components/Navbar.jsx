@@ -28,7 +28,6 @@ const Navbar = () => {
           : "bg-transparent text-white"
       }`}
     >
-      <Link href="/"></Link>
       <button
         onClick={handleHamburger}
         className="text-white text-4xl block md:hidden mr-3"
@@ -57,7 +56,7 @@ const Navbar = () => {
         className={`text-white transition-all duration-300 ease-in-out font-medium md:static md:w-max md:h-max md:pt-0 md:bg-transparent md:block md:mr-3 fixed top-0 w-screen pt-24 h-screen text-center  items-center ${
           mobilenav
             ? "right-0 flex flex-col  gap-8 bg-blue-800  z-[-1]  "
-            : "right-full flex flex-col gap-8 text-opacity-0 mx-auto "
+            : "right-full flex flex-col gap-8 text-opacity-0  "
         }`}
       >
         <Link
@@ -67,6 +66,15 @@ const Navbar = () => {
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration ease-out">
             Home
+          </span>
+        </Link>
+        <Link
+          href="/"
+          className="group text-white transition-all duration-300 ease-in-out md:ml-8"
+          onClick={handleHamburger}
+        >
+          <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration ease-out">
+            About
           </span>
         </Link>
         <Link
