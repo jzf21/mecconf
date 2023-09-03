@@ -33,7 +33,7 @@ body {
 
 
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:contain;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   letter-spacing: 0.1rem;
   
@@ -47,6 +47,12 @@ body {
 
   background-size: cover;
 
+}
+.trackbg
+{
+   background-image: url("/trackbg.svg");
+    background-size: cover;
+    background-repeat: no-repeat; 
 }
 
 .herotext {

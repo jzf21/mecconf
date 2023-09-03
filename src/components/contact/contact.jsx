@@ -3,7 +3,7 @@ import ContactCard from '../contact-card/Contactcard.jsx'
 import styles from './contact.module.css'
 const contact = () => {
   return (
-    <div>
+    <div className={styles.contactbody}>
       <h2 className={styles.contacttitle}>Contact</h2>
       <div className={styles.contactholder}>
         <ContactCard

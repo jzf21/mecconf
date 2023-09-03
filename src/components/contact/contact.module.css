@@ -14,3 +14,10 @@
     justify-content: center;
     padding: 50px 100px;
 }
+.contactbody
+{
+    background-image: url("/contactbg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
