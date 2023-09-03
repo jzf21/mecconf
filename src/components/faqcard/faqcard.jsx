@@ -13,17 +13,15 @@ function Faqcard(props) {
   return (
     <div className={styles.faqcardbody}>
       <div className={styles.faqcardcontent}>
-      <p className={styles.faqcardquestion}>{props.question}</p>
-      
-      {open && <p className={styles.faqcardanswer}>{props.answer}</p>
-      
-      
-      }
-      
-    </div>
+        <p className={styles.faqcardquestion}>{props.question}</p>
+        
+        {open && <p className={styles.faqcardanswer}>{props.answer}</p>}
+        
+      </div>
     {!open&&<div className={styles.faqcardopen} onClick={toggleOpen}>
         
     </div>}
+    
    {open && <button className={styles.faqcardclose} onClick={toggleOpen}>
                 X
               </button>}
