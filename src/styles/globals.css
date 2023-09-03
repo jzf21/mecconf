@@ -70,17 +70,6 @@ body {
 
 
 
-body {
-  min-height: 100vh;
-  font-weight: 300;
-  font-size: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
- 
-  background-color: #eff8e2;
-
-}
 
 .content {
   display: flex;
