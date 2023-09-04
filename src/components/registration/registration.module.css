@@ -33,7 +33,7 @@
     border: none;
     border-radius: 30px;
     padding: 10px 30px;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     cursor: pointer;
     margin-top: 20px;
     
@@ -42,4 +42,21 @@
 {
     cursor: pointer;
     background-color: #3b3bff;
+}
+
+@media screen {
+    @media (min-width: 1024px) {
+        .tracktitle{
+        
+        font-size: 1.25;
+        }
+      }
+      
+      /* On medium-sized screens (md) */
+      @media (min-width: 768px) {
+        .tracktitle{
+        font-size: 1.125rem;
+      }
+    }
+    
 }
