@@ -25,7 +25,7 @@ const Hero = (props: Props) => {
           MEC.HACK
         </h1> */}
         <Image src={heading} alt="logo" className="h-full " />
-        <h2 className='text-white italic  text-[1.4rem] lg:text-[1.7rem] md:text-[2rem] -mt-12 md:-mt-20'>Bridging Gaps Through Technology</h2>
+        <h2 className='text-white italic  text-[0.8rem] lg:text-[1.7rem] md:text-[1.4rem] -mt-12 md:-mt-20'>Bridging Gaps Through Technology</h2>
        </div>
        
       
@@ -39,7 +39,7 @@ const Hero = (props: Props) => {
             <p className='text-white text-xs  sm:text-lg'>  Govt. Model Engineering College,Thrikkakara</p>
           </div>
 
-            <div className='flex min-[420px]:hidden flex-row gap-4  justify-center items-center'>
+            <div className='flex min-[4204px]:hidden flex-row gap-4  justify-center items-center'>
               <Image src={location} alt="logo" className="h-6 w-6 sm:h-8 sm:w-8 md:h-10 md:w-10 " />
               <p className='text-white text-xs  sm:text-lg'>  Govt. Model Engineering<br/> College,Thrikkakara</p>
             </div>

@@ -39,7 +39,7 @@ const CountdownTimer = ({ targetDate }) => {
 
   return (
     <div className="bg-[url('/countdownbg.svg')] bg-cover py-16 min-h-screen">
-      <h3 className="text-5xl text-center text-[#4A4AFF] mb-5 uppercase font-semibold">
+      <h3 className="text-[2rem] lg:text-[2.5rem] md:text-[2.3rem] text-center text-[#4A4AFF] mb-16 md:mb-16 lg:mb-20 uppercase font-semibold">
         Countdown
       </h3>
       <div className="w-full min-h-[200px] flex flex-col items-center justify-center ">
@@ -48,13 +48,13 @@ const CountdownTimer = ({ targetDate }) => {
             <span className="countdown ">
               <span style={{ "--value": 15 }}>{remainingTime.days}</span>
             </span>
-            days
+            <span className="text-[#4a4aff]">Days</span>
           </div>
           <div className="flex flex-col min-w-[120px] min-h-[120px] p-4 bg-neutral rounded-box text-neutral-content border-4 border-red">
             <span className=" countdown">
               <span style={{ "--value": 10 }}>{remainingTime.hours}</span>
             </span>
-            hours
+            <span className="text-[#4a4aff]">Hours</span>
           </div>
           <div className="flex flex-col min-w-[120px] min-h-[120px] p-4 bg-neutral rounded-box text-neutral-content border-4 border-red">
             <span className="countdown ">
@@ -62,13 +62,13 @@ const CountdownTimer = ({ targetDate }) => {
                 {remainingTime.minutes}
               </span>
             </span>
-            min
+            <span className="text-[#4a4aff]">Min</span>
           </div>
           <div className="flex  flex-col min-w-[120px] min-h-[120px] p-4 bg-neutral rounded-box text-neutral-content border-4 border-red">
             <span className="countdown ">
               <span style={{ "--value": 51 }}>{remainingTime.seconds}</span>
             </span>
-            sec
+            <span className="text-[#4a4aff]">Sec</span>
           </div>
         </div>
       </div>
