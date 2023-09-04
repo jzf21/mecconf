@@ -72,11 +72,26 @@ const CountdownTimer = ({ targetDate }) => {
           </div>
         </div>
       </div>
-      
+
       <div className="py-8 px-4 mx-auto  max-w-screen-xl text-center lg:py-16 lg:px-12 flex flex-col justify-evenly gap-16">
-        <h2 className='text-white uppercase font-bold tracking-wider text-[2rem] md:text-[2.5rem]'>About <span className='text-[#4A4AFF]'>MEC.HACK</span></h2>
-        <p className='text-white font-normal font-sans'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil vitae, esse voluptatem perferendis explicabo in enim laborum repudiandae numquam excepturi et iusto accusamus vel dignissimos magnam quas, architecto quos rem? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid molestias et quibusdam dignissimos voluptatem unde, odio neque cum. Accusamus ratione corporis, similique quam distinctio ullam rerum! Sapiente, fugiat! Distinctio, libero?</p>
-    </div>
+        <h2 className="text-white uppercase font-bold tracking-wider text-[2rem] md:text-[2.5rem]">
+          About <span className="text-[#4A4AFF]">MEC.HACK</span>
+        </h2>
+        <p className="text-white font-normal font-sans text-xl">
+          MEC.Hack is gearing up to be an electrifying 24-hour hackathon,
+          setting the stage for the upcoming MEC.Conf. Mark your calendars for
+          the event happening on at Model Engineering College, Thrikkakara. This
+          year, our theme, "Bridging gaps through Technology," takes center
+          stage, emphasizing the significance of using technology to address
+          critical issues. MEC.Hack serves as a catalyst to advance this
+          mission, fostering innovation and creative solutions that can bridge
+          divides and drive positive change. Join us in this incredible
+          hackathon as we harness the power of technology to make a difference.
+          We invite you to be a part of this exciting journey towards innovation
+          and change. Don't miss your chance to be a part of MEC.Hack - where
+          ideas become reality!
+        </p>
+      </div>
     </div>
   );
 };
