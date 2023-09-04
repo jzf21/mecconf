@@ -12,7 +12,7 @@ type Props = {}
 const Hero = (props: Props) => {
   return (
     <section className=" ">
-      <div className="py-8 px-4 mx-auto h-[100vh] max-w-screen-xl text-center lg:py-16 lg:px-12 flex flex-col items-center justify-center gap-16 md:justify-evenly">
+      <div className="py-8 px-4 mx-auto h-[100vh] max-w-screen-xl text-center lg:py-16 lg:px-12 flex flex-col items-center justify-center gap-8 md:justify-evenly">
           <div className='flex flex-row justify-center items-center gap-12 max-h- mt-4  '>
         <Image src={computersociety} alt="logo" className="h-12 w-12 sm:h-24 sm:w-24 md:h-36 md:w-36 mt-4" />
        <Image src={iee} alt="logo" className="h-12 w-12 sm:h-24 sm:w-24 md:h-36 md:w-36 mt-4 " />
