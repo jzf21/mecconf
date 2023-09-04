@@ -31,8 +31,8 @@ For over a quarter of a century, IEEE MEC SB, the student branch of IEEE at Mode
       <div className="bg-[url('/ieecsbg.svg')] bg-cover min-h-screen">
       <div className="py-8 px-4 mx-auto  max-w-screen-xl text-center lg:py-16 lg:px-12 flex flex-col justify-evenly items-center gap-16">
         <h2 className='text-white uppercase font-bold tracking-wider text-[2rem] md:text-[2.5rem]'>About <span className='text-[#4A4AFF]'>IEEE CS</span></h2>
-        <p className='text-white font-normal mb-8 font-sans text-xl'>The IEEE Computer Society is where computer experts, scientists, academics, and industry pros unite to drive global tech forward. With conferences, publications, and awesome programs, we fuel dialogue, learning, and collaboration at every career stage. Our goal? To shape the industry&#39;s future and empower not just our members, but the world at large. From expert-led courses to unique webinars, we&#39;ve got the technical know-how you need.</p>
-        <Image className=""src={ieeecs} alt="" />
+        <p className='text-white font-normal mb-16 font-sans text-xl'>The IEEE Computer Society is where computer experts, scientists, academics, and industry pros unite to drive global tech forward. With conferences, publications, and awesome programs, we fuel dialogue, learning, and collaboration at every career stage. Our goal? To shape the industry&#39;s future and empower not just our members, but the world at large. From expert-led courses to unique webinars, we&#39;ve got the technical know-how you need.</p>
+        <Image className="`"src={ieeecs} alt="" />
       </div>
       </div>
     </div>
