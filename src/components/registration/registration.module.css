@@ -46,7 +46,7 @@
 
 @media screen {
     @media (min-width: 1024px) {
-        .tracktitle{
+        .regbtn{
         
         font-size: 1.25;
         }
@@ -54,7 +54,7 @@
       
       /* On medium-sized screens (md) */
       @media (min-width: 768px) {
-        .tracktitle{
+        .regbtn{
         font-size: 1.125rem;
       }
     }
