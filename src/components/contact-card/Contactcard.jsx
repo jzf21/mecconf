@@ -9,11 +9,11 @@ import Link from "next/link";
 function Contactcard(props) {
   return (
     <>
-      <div className="flex flex-col justify-center items-center max-w-[300px] rounded-xl p-4 bg-[#cccef4]">
+      <div className="flex flex-col justify-center items-center max-w-[300px] rounded-xl p-4 bg-[#cdcef4]">
         <img
           src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
           alt="Contact us self-center mx-auto"
-          className="w-[90%]"
+          className="w-[90%] rounded-lg"
           // width={300}
           // height={300}
         />
