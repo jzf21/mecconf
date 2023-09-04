@@ -5,16 +5,18 @@ import iee from '../assets/IEEE MEC SB LOGO WHITE T 1.svg'
 import computersociety from '../assets/CSLogo-200x70 1.svg'
 import heading from "../assets/heading.svg"
 import foss from "../assets/fosspng.svg"
+import location from "../assets/location.svg"
+import date from "../assets/ic_round-date-range.svg"
 type Props = {}
 
 const Hero = (props: Props) => {
   return (
     <section className=" ">
       <div className="py-8 px-4 mx-auto h-[100vh] max-w-screen-xl text-center lg:py-16 lg:px-12 flex flex-col items-center justify-center gap-16 md:justify-evenly">
-          <div className='flex flex-row justify-center items-center gap-16 max-h- mt-4  '>
+          <div className='flex flex-row justify-center items-center gap-12 max-h- mt-4  '>
         <Image src={computersociety} alt="logo" className="h-12 w-12 sm:h-24 sm:w-24 md:h-36 md:w-36 mt-4" />
-       <Image src={iee} alt="logo" className="h-12 w-12 sm:h-24 sm:w-24 md:h-36 md:w-36 mt-4" />
-       <Image src={foss} alt="logo" className="h-12 w-12 sm:h-24 sm:w-24 md:h-36 md:w-36 mt-4" />
+       <Image src={iee} alt="logo" className="h-12 w-12 sm:h-24 sm:w-24 md:h-36 md:w-36 mt-4 " />
+       <Image src={foss} alt="logo" className="h-12 w-12 sm:h-24 sm:w-24 md:h-36 md:w-36 mt-4 " />
        </div>
    
        <div className='flex flex-col justify-center  max-h-   '>
@@ -23,16 +25,24 @@ const Hero = (props: Props) => {
           MEC.HACK
         </h1> */}
         <Image src={heading} alt="logo" className="h-full " />
-        <h2 className='text-white italic  text-[1.4rem] lg:text-[1.7rem] md:text-[2rem] -mt-12'>Bridging Gaps Through Technology</h2>
+        <h2 className='text-white italic  text-[1.4rem] lg:text-[1.7rem] md:text-[2rem] -mt-12 md:-mt-20'>Bridging Gaps Through Technology</h2>
        </div>
        
       
         <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36 uppercase">
-          september 23rd and 24th<br/>
-          Govt. Model Engineering College, Thrikkakara
+          <div className='flex flex-row gap-4 justify-center items-center'>
+            <Image src={date} alt="logo" className="h-6 w-6 sm:h-8 sm:w-8 md:h-10 md:w-10 " />
+            <p>September 23,24</p>
+          </div>
+            <div className='flex flex-row gap-4 justify-center items-center'>
+            <Image src={location} alt="logo" className="h-6 w-6 sm:h-8 sm:w-8 md:h-10 md:w-10 " />
+            <p>  Govt. Model Engineering College, Thrikkakara</p>
+          </div>
+        
          
           
         </div>
+        <button className='bg-[#4A4AFF] text-white tracking-wide text-xl uppercase  px-8 py-2 rounded-[99px] mt-4 hover:bg-[#3B3BFF]'>Register</button>
       </div>
     </section>
   );
