@@ -39,7 +39,7 @@ const CountdownTimer = ({ targetDate }) => {
 
   return (
     <div className="bg-[url('/countdownbg.svg')] bg-cover py-16 min-h-screen">
-      <h3 className="text-5xl text-center mb-5 uppercase font-semibold">
+      <h3 className="text-5xl text-center text-[#4A4AFF] mb-5 uppercase font-semibold">
         Countdown
       </h3>
       <div className="w-full min-h-[200px] flex flex-col items-center justify-center ">
