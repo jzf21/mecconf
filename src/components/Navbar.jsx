@@ -65,7 +65,7 @@ const Navbar = () => {
           onClick={handleHamburger}
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration ease-out">
-            Home
+            HOME
           </span>
         </Link>
         <Link
@@ -74,7 +74,7 @@ const Navbar = () => {
           onClick={handleHamburger}
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration ease-out">
-            About
+            ABOUT
           </span>
         </Link>
         <Link
@@ -82,7 +82,7 @@ const Navbar = () => {
           href="/#becomesponsor"
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration ease-out">
-            Sponsors
+          SPONSORS
           </span>
         </Link>
         <Link
@@ -90,7 +90,7 @@ const Navbar = () => {
           href="/#EventSchedule"
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration ease-out">
-            Schedule
+          REGISTRATION
           </span>
         </Link>
         <Link
@@ -98,7 +98,7 @@ const Navbar = () => {
           href="/#speakers"
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration ease-out">
-            Speakers
+            FAQ
           </span>
         </Link>
         <Link
@@ -107,7 +107,7 @@ const Navbar = () => {
           onClick={handleHamburger}
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
-            Contact
+          CONTACT
           </span>
         </Link>
         {/* <button className="md:hidden block  register text-xl text-white bg-red px-10 py-2">
