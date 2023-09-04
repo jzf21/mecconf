@@ -33,9 +33,13 @@
     border: none;
     border-radius: 30px;
     padding: 10px 30px;
-    font-size: 25px;
-    font-weight: 200;
+    font-size: 1.5rem;
     cursor: pointer;
     margin-top: 20px;
-    font-family: sans-serif;
+    
+}
+.regbtn:hover
+{
+    cursor: pointer;
+    background-color: #3b3bff;
 }

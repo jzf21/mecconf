@@ -32,7 +32,7 @@ const Hero = (props: Props) => {
         <div className="px-4 mx-auto flex flex-col items-center gap-4 text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36 uppercase">
           <div className='flex flex-row gap-4 justify-center items-center'>
             <Image src={date} alt="logo" className="h-6 w-6 sm:h-8 sm:w-8 md:h-10 md:w-10 " />
-            <p className='text-white text-xs sm:text-lg' >September 23,24</p>
+            <p className='text-white text-[0.8rem] sm:text-lg' >September 23,24</p>
           </div>
             {/* <div className='hidden min-[420px]:flex flex-row gap-4  justify-center items-center'>
             <Image src={location} alt="logo" className="h-6 w-6 sm:h-8 sm:w-8 md:h-10 md:w-10 " />
@@ -41,13 +41,13 @@ const Hero = (props: Props) => {
 
             <div className='flex min-[4204px]:hidden flex-row gap-4  justify-center items-center'>
               <Image src={location} alt="logo" className="h-6 w-6 sm:h-8 sm:w-8 md:h-10 md:w-10 " />
-              <p className='text-white text-xs  sm:text-lg'>  Govt. Model Engineering<br/> College,Thrikkakara</p>
+              <p className='text-white text-[0.8rem]  sm:text-lg'>  Govt. Model Engineering<br/> College,Thrikkakara</p>
             </div>
         
          
           
         </div>
-        <button className='bg-[#4A4AFF] text-white tracking-wide text-xl uppercase  px-8 py-2 rounded-[99px] mt-4 hover:bg-[#3B3BFF]'>Register</button>
+        <button className='bg-[#4A4AFF] text-white tracking-wide text-[0.8rem]  md:text-lg lg:text-xl  uppercase  px-8 py-2 rounded-[99px] mt-4 hover:bg-[#3B3BFF]'>Register</button>
       </div>
     </section>
   );
