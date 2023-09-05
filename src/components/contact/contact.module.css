@@ -16,9 +16,9 @@
 }
 .contactbody
 {
-    background-image: url("/contactbg.svg");
+    /* background-image: url("/contactbg.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     padding-top: 100px;
 }
 @media (min-width: 1024px) {

@@ -29,11 +29,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-image: url("/bgmain.svg");
+  /* background-image: url("/bgmain.svg");
 
 
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size:contain; */
+  background-color: #142480;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   letter-spacing: 0.1rem;
   
