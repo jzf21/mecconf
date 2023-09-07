@@ -8,29 +8,33 @@ const contact = () => {
       <div className={styles.contactholder}>
         <ContactCard
           name="Stephen Saji Mathew"
-          email="something@gmail.com"
-          mobile="1234567890"
-          designation="CEO"
+          email="stephensajimathew@ieee.org"
+          mobile="+917012656996"
+          designation=" Chairperson of IEEE MEC CS SBS"
+          link="https://www.linkedin.com/in/stephen-mathew-420702206"
         />
         <ContactCard
-          name="JOHN DOE"
-          email="something@gmail.com"
-          mobile="1234567890"
-          designation="CEO"
+          name="Jithin Jagadeesh "
+          email="jithinjagadeesh1@gmail.com"
+          mobile="+919207589302"
+          designation="Chairperson of FOSSMEC"
+          link="https://www.linkedin.com/in/jithin-jagadeesh"
         />
       </div>
       <div className={styles.contactholder}>
         <ContactCard
-          name="JOHN DOE"
-          email="something@gmail.com"
-          mobile="1234567890"
-          designation="CEO"
+          name="Alan Biju"
+          email="alanbiju@ieee.org"
+          mobile="+917907025154"
+          designation="Secretary of IEEE MEC CS SBS"
+          link="https://www.linkedin.com/in/alan--biju"
         />
         <ContactCard
-          name="JOHN DOE"
-          email="something@gmail.com"
-          mobile="1234567890"
-          designation="CEO"
+          name="Karthik G Kumar"
+          email="karthikgkumar.pro@gmail.com"
+          mobile="+918848527139"
+          designation="Secretary of FOSSMEC"
+          link="https://www.linkedin.com/in/karthik-g-kumar"
         />
       </div>
     </div>

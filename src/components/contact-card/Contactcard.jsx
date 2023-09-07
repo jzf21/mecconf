@@ -18,19 +18,19 @@ function Contactcard(props) {
           // height={300}
         />
 
-        <div className="flex flex-col justify-center text-center gap-1">
+        <div className="flex flex-col justify-center items-center text-center gap-1">
           <p className="text-blue-500 text-lg">{props.name}</p>
           <p className="text-black text-sm">{props.designation}</p>
-          <div className="flex flex-row gap-8 mt-2">
-            <Link href={props.mobile}>
+          <div className="flex flex-row justify-between items-center gap-8 mt-2">
+            <a href={"tel:" + props.mobile}>
               <Image src={phone} alt="phone" className="w-6 h-6" />
-            </Link>
-            <Link href={props.mobile}>
-              <Image src={email} alt="email" className="w-6 h-6" />
-            </Link>
-            <Link href={props.mobile}>
+            </a>
+            <a href={"mailto:"+ props.email}>
+              <Image src={email} alt="email" className="w-8 h-8" />
+            </a>
+            <a href={props.link}>
               <Image src={linkedin} alt="linkedin" className="w-6 h-6" />
-            </Link>
+            </a>
           </div>
         </div>
         {/*         
