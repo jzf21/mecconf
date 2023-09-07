@@ -7,7 +7,7 @@ const contact = () => {
       <h2 className={styles.contacttitle}>Contact</h2>
       <div className={styles.contactholder}>
         <ContactCard
-          name="JOHN DOE"
+          name="Stephen Saji Mathew"
           email="something@gmail.com"
           mobile="1234567890"
           designation="CEO"
