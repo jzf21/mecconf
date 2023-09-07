@@ -17,7 +17,9 @@ function Faqcard(props) {
 
         {open && <p className="text-sm p-2">{props.answer}</p>}
       </div>
-      {!open && <div className={styles.faqcardopen}></div>}
+      {!open && (<div><button className={styles.faqcardopen} onClick={toggleOpen}>
+          +
+        </button></div>)}
 
       {open && (
         <button className={styles.faqcardclose} onClick={toggleOpen}>

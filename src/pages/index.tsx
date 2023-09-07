@@ -34,6 +34,7 @@ export default function Home() {
       <Hero/>
     {/* </div> */}
       <NoSSR targetDate={new Date('September 23, 2023 09:30:00').getTime()}/>
+      <Faq/>
        
        
       
@@ -46,7 +47,7 @@ export default function Home() {
       <Tracks/>
         <Register/>
     {/* </div> */}
-      {/* <Faq/> */}
+      
 
       
       

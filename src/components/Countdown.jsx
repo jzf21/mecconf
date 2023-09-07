@@ -73,11 +73,11 @@ const CountdownTimer = ({ targetDate }) => {
         </div>
       </div>
 
-      <div className="py-8 px-4 mx-auto  max-w-screen-xl text-center lg:py-16 lg:px-12 flex flex-col justify-evenly gap-16">
+      <div className="py-8 px-4 mx-auto  max-w-screen-xl  lg:py-16 lg:px-12 flex flex-col justify-evenly items-center gap-16">
         <h2 className="text-white uppercase font-bold tracking-wider text-[1.5rem] md:text-[2rem] lg:text-[2.5rem]">
           About <span className="text-[#4A4AFF]">MEC.HACK</span>
         </h2>
-        <p className="text-white font-normal font-sans text-sm lg:text-xl">
+        <p className="text-white font-normal font-sans text-sm text-left lg:text-xl">
           MEC.Hack is gearing up to be an electrifying 24-hour hackathon,
           setting the stage for the upcoming MEC.Conf. Mark your calendars for
           the event happening on at Model Engineering College, Thrikkakara. This
