@@ -5,14 +5,17 @@ import Fintech from "../../assets/fintech.svg"
 import Foss from "../../assets/foss1.svg" 
 import AI from "../../assets/ai.svg" 
 import Track1 from "../../assets/track1.png"
+import Trackcard from "../trackcard/trackcard"
 
 const Tracks = () => {
+  
+  
   return (
     
    <div className={styles.trackbody}>
         <h2 className={styles.tracktitle}>TRACKS AND PRIZES</h2>
         <div className={styles.trackcontainer}>
-        <div className={styles.trackcard}>
+        {/* <div className={styles.trackcard}>
             <Image className={styles.trackcardimg}src={Track1} alt="Fintech"  />
             <div className={styles.trackcardtext}>
               <h3 className={styles.trackcardtitle}>Foss</h3>
@@ -34,9 +37,11 @@ const Tracks = () => {
               <h3 className={styles.trackcardtitle}>Gen AI</h3>
               <h3 className={styles.trackcardfees}>Rs.10,000</h3>
             </div>
-            <button className={styles.morebtn}>Read More</button>
-          </div>
-
+            <button onclick={toggleModal} className={styles.morebtn}>Read More</button>
+          </div> */}
+        <Trackcard img={Track1} title="Foss" fees="Rs.10,000" />
+        <Trackcard img={Track1} title="Foss" fees="Rs.10,000" />
+        <Trackcard img={Track1} title="Foss" fees="Rs.10,000" />
         </div>
 
    </div>
