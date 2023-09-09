@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import React from 'react'
 import styles from "./trackcard.module.css"
 import Image from 'next/image';
