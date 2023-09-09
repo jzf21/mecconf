@@ -5,7 +5,7 @@ import Faqcard from '../faqcard/faqcard';
 const Faq = () => {
   return (
     <div className={styles.faqbody}>
-        <h2 className={styles.faqtitle}>FAQ</h2>
+        <h2 className="text-center text-[1.5rem] md:text-[2rem] lg:text-[2.5rem]">FAQ</h2>
         <div className={styles.faqcontainer}>
           
         <Faqcard 

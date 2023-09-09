@@ -74,7 +74,7 @@ const Navbar = () => {
           onClick={handleHamburger}
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration ease-out">
-            ABOUT
+            ABOUT MEC.Hack
           </span>
         </Link>
         <Link
@@ -82,7 +82,7 @@ const Navbar = () => {
           href="/#becomesponsor"
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration ease-out">
-          SPONSORS
+          Tracks and Prizes
           </span>
         </Link>
         <Link
@@ -90,7 +90,7 @@ const Navbar = () => {
           href="/#EventSchedule"
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration ease-out">
-          REGISTRATION
+          Sponsers
           </span>
         </Link>
         <Link

@@ -34,9 +34,11 @@ export default function Home() {
       <Hero/>
     {/* </div> */}
       <NoSSR targetDate={new Date('September 23, 2023 09:30:00').getTime()}/>
-      <Faq/>
-       
-       
+      
+      <div className="tracksection">
+      <Tracks/>
+        <Register/> 
+      </div>
       
       <About/>
       
@@ -44,8 +46,8 @@ export default function Home() {
       
       
     {/* <div className="trackbg"> */}
-      <Tracks/>
-        <Register/>
+      
+        <Faq/>
     {/* </div> */}
       
 
@@ -53,7 +55,9 @@ export default function Home() {
       
       {/* <Events/> */}
       {/* <Openhack/> */}
+      <div className="contactsection">
       <Contact/>
+      </div>
       <Footer/>
    
      

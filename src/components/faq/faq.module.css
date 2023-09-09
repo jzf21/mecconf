@@ -1,6 +1,6 @@
 .faqtitle
 {
-    font-size: 200%;
+    font-size: 10rem;
     text-align: center;
     color: white;
 }
@@ -12,4 +12,15 @@
 {
     display: flex;
     flex-direction: column;
+}
+@media (min-width: 1024px) {
+    .faqtitle{
+    font-size: 10rem;
+  }
+}
+  /* On medium-sized screens (md) */
+  @media (min-width: 768px) {
+    .faqtitle{
+    font-size: 2rem;
+  }
 }

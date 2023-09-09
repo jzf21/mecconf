@@ -6,6 +6,7 @@ import Foss from "../../assets/foss1.svg"
 import AI from "../../assets/ai.svg" 
 import Track1 from "../../assets/track1.png"
 import Trackcard from "../trackcard/trackcard"
+import Karthik from "../../assets/karthik.png";
 
 const Tracks = () => {
   
@@ -39,7 +40,7 @@ const Tracks = () => {
             </div>
             <button onclick={toggleModal} className={styles.morebtn}>Read More</button>
           </div> */}
-        <Trackcard img={Track1} title="Foss" fees="Rs.10,000" />
+        <Trackcard img={Karthik} title="Foss" fees="Rs.10,000" />
         <Trackcard img={Track1} title="Foss" fees="Rs.10,000" />
         <Trackcard img={Track1} title="Foss" fees="Rs.10,000" />
         </div>

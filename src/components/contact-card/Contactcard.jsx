@@ -7,29 +7,36 @@ import linkedin from '../../assets/bi_linkedin.svg'
 import Link from "next/link";
 
 function Contactcard(props) {
+  var id=props.id;
   return (
     <>
-      <div className="flex flex-col justify-center items-center max-w-[300px] rounded-xl p-4 bg-[#cdcef4]">
-        <img
-          src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-          alt="Contact us self-center mx-auto"
-          className="w-[90%] rounded-lg"
-          // width={300}
-          // height={300}
+      <div className={styles.contactcardbody}>
+       {  (id!=3) &&<Image
+          src={props.img}
+          alt="Contact us"
+          className={styles.contactcardimg}
+            
         />
-
-        <div className="flex flex-col justify-center items-center text-center gap-1">
-          <p className="text-blue-500 text-lg">{props.name}</p>
-          <p className="text-black text-sm">{props.designation}</p>
-          <div className="flex flex-row justify-between items-center gap-8 mt-2">
+       }
+       {  (id==3) &&<Image
+          src={props.img}
+          alt="Contact us"
+          className={styles.contactcardimg3}
+            
+        />
+       }
+        <div className={styles.contactcardcontent}>
+          <p className={styles.contactcardname}>{props.name}</p>
+          <p className={styles.contactcarddesignation}>{props.designation}</p>
+          <div className={styles.contactcardicons}>
             <a href={"tel:" + props.mobile}>
-              <Image src={phone} alt="phone" className="w-6 h-6" />
+              <Image src={phone} alt="phone" className={styles.smallicons} />
             </a>
             <a href={"mailto:"+ props.email}>
-              <Image src={email} alt="email" className="w-8 h-8" />
+              <Image src={email} alt="email" className={styles.bigicons} />
             </a>
             <a href={props.link}>
-              <Image src={linkedin} alt="linkedin" className="w-6 h-6" />
+              <Image src={linkedin} alt="linkedin" className={styles.smallicons}/>
             </a>
           </div>
         </div>

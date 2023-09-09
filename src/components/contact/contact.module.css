@@ -1,10 +1,10 @@
 .contacttitle
 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     justify-content: center;
     text-align: center;
     color:white;
-    font-family: sans-serif;
+    
 }
 .contactholder
 {
@@ -19,7 +19,8 @@
     /* background-image: url("/contactbg.svg");
     background-repeat: no-repeat;
     background-size: cover; */
-    padding-top: 100px;
+    padding-top: 50px;
+    margin-bottom: 50px;
 }
 @media (min-width: 1024px) {
     .contacttitle{

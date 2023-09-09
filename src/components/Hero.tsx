@@ -25,7 +25,7 @@ const Hero = (props: Props) => {
           MEC.HACK
         </h1> */}
         <Image src={heading} alt="logo" className=" " />
-        <h2 className='text-white italic  text-[0.8rem] lg:text-[1.7rem] md:text-[1.4rem] -mt-12 md:-mt-20'>Bridging Gaps Through Technology</h2>
+        <h2 className='text-white italic font-light text-[0.8rem] lg:text-[1.7rem] md:text-[1.4rem] -mt-12 md:-mt-20'>Bridging Gaps Through Technology</h2>
        </div>
        
       
@@ -47,7 +47,7 @@ const Hero = (props: Props) => {
          
           
         </div>
-        <button className='bg-[#4A4AFF] text-white tracking-wide text-[0.8rem]  md:text-lg lg:text-xl  uppercase  px-8 py-2 rounded-[99px] mt-4 hover:bg-[#3B3BFF]'>Register</button>
+        <button className='bg-[#4A4AFF] text-white tracking-wide text-[0.8rem] lg:text-[1.7rem] md:text-[1.4rem]  uppercase  px-10 py-2 rounded-[99px] mt-4 hover:bg-[#3B3BFF]'>Register</button>
       </div>
     </section>
   );
