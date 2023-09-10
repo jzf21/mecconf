@@ -8,7 +8,7 @@ import Alan from "../../assets/alan.jpg";
 const contact = () => {
   return (
     <div className={styles.contactbody}>
-      <h2 className={styles.contacttitle}>Contact</h2>
+      <h2 className="text-[1.5rem] md:text-[2rem] lg:text-[2.5rem] text-center text-white">Contact</h2>
       <div className={styles.contactholder}>
         <ContactCard
           name="Stephen Saji Mathew"

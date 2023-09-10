@@ -31,31 +31,31 @@ export default function Home() {
       <div className="background-image"></div>
     {/* <div className="mainbg"> */}
         <Nav/>
-      <Hero/>
+      <div id="home"><Hero/></div>
     {/* </div> */}
       <NoSSR targetDate={new Date('September 23, 2023 09:30:00').getTime()}/>
       
-      <div className="tracksection">
+      <div id="tracks" className="tracksection">
       <Tracks/>
         <Register/> 
       </div>
       
-      <About/>
+      <div id="about"><About/></div>
       
      
       
       
-    {/* <div className="trackbg"> */}
+     <div id="faq"> 
       
         <Faq/>
-    {/* </div> */}
+    </div> 
       
 
       
       
       {/* <Events/> */}
       {/* <Openhack/> */}
-      <div className="contactsection">
+      <div id="contact" className="contactsection">
       <Contact/>
       </div>
       <Footer/>

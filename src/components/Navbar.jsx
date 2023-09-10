@@ -1,11 +1,13 @@
-import Link from "next/link";
+// import Link from "next/link";
+import {Link} from 'react-scroll';
 
 
-import { useState } from "react";
+import { use, useState,useRef } from "react";
 
 const Navbar = () => {
   const [scrollbar, setscrollbar] = useState(false);
   const [mobilenav, setmobilenav] = useState(false);
+  
 
   const handleScroll = () => {
     if (window.scrollY > 50) {
@@ -60,50 +62,56 @@ const Navbar = () => {
         }`}
       >
         <Link
-          href="/"
-          className="group text-white transition-all duration-300 ease-in-out "
+          to="home"
+          className="group cursor-pointer text-white transition-all duration-300 ease-in-out "
           onClick={handleHamburger}
+          spy={true} smooth={true} offset={0} duration={500}
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration ease-out">
             HOME
           </span>
         </Link>
         <Link
-          href="/"
-          className="group text-white transition-all duration-300 ease-in-out md:ml-8"
+          to="mechack"
+          className="group cursor-pointer text-white transition-all duration-300 ease-in-out md:ml-8"
           onClick={handleHamburger}
+          spy={true} smooth={true} offset={-50} duration={500}
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration ease-out">
             ABOUT MEC.Hack
           </span>
         </Link>
         <Link
-          className="group text-white transition-all duration-300 ease-in-out md:ml-8"
-          href="/#becomesponsor"
+          className="group cursor-pointer text-white transition-all duration-300 ease-in-out md:ml-8"
+          to="tracks"
+          spy={true} smooth={true} offset={-50} duration={500}
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration ease-out">
           Tracks and Prizes
           </span>
         </Link>
         <Link
-          className="group text-white transition-all duration-300 ease-in-out md:ml-8"
-          href="/#EventSchedule"
+          className="group cursor-pointer text-white transition-all duration-300 ease-in-out md:ml-8"
+          to="about"
+          spy={true} smooth={true} offset={-50} duration={500}
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration ease-out">
           Sponsers
           </span>
         </Link>
         <Link
-          className="group text-white transition-all duration-300 ease-in-out md:ml-8"
-          href="/#speakers"
+          className="group cursor-pointer text-white transition-all duration-300 ease-in-out md:ml-8"
+          to="faq"
+          spy={true} smooth={true} offset={-150} duration={500}
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration ease-out">
             FAQ
           </span>
         </Link>
         <Link
-          className="group text-white transition-all duration-300 ease-in-out md:ml-8"
-          href="/#contact"
+          spy={true} smooth={true} offset={-150} duration={500}
+          className="group text-white cursor-pointer transition-all duration-300 ease-in-out md:ml-8"
+          to="contact"
           onClick={handleHamburger}
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">

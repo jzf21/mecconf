@@ -73,7 +73,7 @@ const CountdownTimer = ({ targetDate }) => {
         </div>
       </div>
 
-      <div className="py-8 px-4 mx-auto  max-w-screen-xl  lg:py-16 lg:px-12 flex flex-col justify-evenly items-center gap-16">
+      <div id="mechack" className="py-8 px-4 mx-auto  max-w-screen-xl  lg:py-16 lg:px-12 flex flex-col justify-evenly items-center gap-16">
         <h2 className="text-white uppercase font-bold tracking-wider text-[1.5rem] md:text-[2rem] lg:text-[2.5rem]">
           About <span className="text-[#4A4AFF]">MEC.HACK</span>
         </h2>

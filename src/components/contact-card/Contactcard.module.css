@@ -8,13 +8,9 @@
     border-radius: 20px; 
     padding: 16px; 
     background-color: transparent;
-    border-style:solid;
-    border-width: 1px;
-    border-image: linear-gradient(
-        to bottom, 
-        white, 
-        rgba(0, 0, 0, 0)
-      ) 1 100%;
+    border-top:1px solid rgb(12, 12, 118); 
+    border-right:1px solid rgb(12, 12, 118);
+    border-left:1px solid rgb(12, 12, 118);
   
 }
 .contactcardcontent
@@ -28,13 +24,13 @@
 }
 .contactcardname
 {
-    color: blue;
+    color: white;
     font-family: sans-serif;
     font-size: 1.25rem;
 }
 .contactcarddesignation
 {
-    color: #000;
+    color: #e0e0e0;
     font-family: serif;
     font-size: 0.875rem;
 }
@@ -63,6 +59,7 @@
     height: 225px;
     border-radius: 10px;
     object-fit: cover;
+    margin-bottom:5px;
 }
 .contactcardimg3
 {

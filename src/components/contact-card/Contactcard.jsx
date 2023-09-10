@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Contactcard.module.css";
 import Image from "next/image";
-import phone from "../../assets/phone.svg";
-import email from '../../assets/ic_round-mail.svg'
-import linkedin from '../../assets/bi_linkedin.svg'
+import phone from "../../assets/phone.png";
+import email from '../../assets/email.png'
+import linkedin from '../../assets/linkedin.png'
 import Link from "next/link";
 
 function Contactcard(props) {
