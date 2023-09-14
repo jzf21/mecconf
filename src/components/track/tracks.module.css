@@ -26,7 +26,176 @@
     flex-wrap: wrap;
     gap: 100px;
 }
+.trackcard
+{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    
+    border-top:1px solid rgb(12, 12, 118); 
+    border-right:1px solid rgb(12, 12, 118);
+    border-left:1px solid rgb(12, 12, 118);
+    
+   
+    
+    
+    width: 300px;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
 
+.trackcardimg
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.trackcardtitle
+{
+    font-size: 25px;
+    color: white;
+}
+.trackcardfees
+{
+    font-size: 16px;
+    color: #e0e0e0;
+
+}
+.morebtn
+{   
+    color: #e0e0e0;
+    background-color:#2E414E;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 50px;
+    color: white;
+    font-size: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.morebtn:hover
+{
+    background-color: #253545;
+}
+.overlay {
+    cursor: pointer;
+  }
+  .modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    gap: 30px;
+    transition: all 1s ease-in;
+  }
+  
+  .modal,
+  .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 999;
+    transition: all 0.3s ease-out;
+  }
+  
+  .modalbox {
+    background: #04364F;
+    animation: fadeInDown 0.8s;
+    border: black 2px solid;
+    transition: all 0.3s ease-out;
+    position: relative;
+    border-radius: 20px;
+    height: 700px;
+    max-height: fit-content;
+    max-width: 95vw;
+    overflow-y: scroll;
+  }
+  .modalcontent {
+    position: relative;
+    line-height: 1.4;
+    color:white;
+    font-family: sans-serif;
+    /* background: white; */
+    background: rgba(0, 0, 0, 0);
+    font-size: larger;
+    padding: 14px 28px;
+    /* border-radius: 20px; */
+    max-width: 600px;
+    min-width: 300px;
+    z-index: 1000;
+    margin: 0px 20px;
+    overflow-x: hidden;
+    /* animation: fadeInDown 0.8s; */
+    /* border: black 2px solid; */
+  
+    transition: all 0.3s ease-out;
+    margin: 0px;
+  }
+  .trackcardimg3
+  {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .trackcardimg1
+  {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .closemodal {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    padding: 2px 4px;
+    padding-bottom: 0px;
+    /* color: white; */
+    /* background: black; */
+    font-size: large;
+    font-weight: 900;
+    /* font-family: sans-serif; */
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.1px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    background-size: 200% auto;
+    background-image: linear-gradient(
+      120deg,
+      rgb(35, 88, 173) 30%,
+      #4a4afe 60%,
+      rgb(35, 88, 173)
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradientrotate 8s linear infinite;
+    cursor: pointer;
+  }
 
 
 @media (max-width: 639px){

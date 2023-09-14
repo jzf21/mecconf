@@ -31,12 +31,12 @@ function trackcard(props)
   )
   }
     <div className={styles.trackcard}>
-            <Image className={styles.trackcardimg}src={Track1} alt="Fintech"  />
+            <Image className={styles.trackcardimg}src={props.img} alt="Fintech"  />
             <div className={styles.trackcardtext}>
-              <h3 className={styles.trackcardtitle}>Gen AI</h3>
-              <h3 className={styles.trackcardfees}>Rs.10,000</h3>
+              <h3 className={styles.trackcardtitle}>Prize</h3>
+              <h3 className={styles.trackcardfees}>{props.fees}</h3>
             </div>
-            <button onClick={toggleModal} className={styles.morebtn}>Read More</button>
+            {/* <button onClick={toggleModal} className={styles.morebtn}>Read More</button> */}
           </div>
   </>
   )

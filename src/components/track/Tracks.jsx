@@ -7,6 +7,9 @@ import AI from "../../assets/ai.svg"
 import Track1 from "../../assets/track1.png"
 import Trackcard from "../trackcard/trackcard"
 import Karthik from "../../assets/karthik.png";
+import First from "../../assets/1st.png";
+import Third from "../../assets/3rd.png";
+import Second from "../../assets/2nd.png";
 
 const Tracks = () => {
   
@@ -40,9 +43,33 @@ const Tracks = () => {
             </div>
             <button onclick={toggleModal} className={styles.morebtn}>Read More</button>
           </div> */}
-        <Trackcard img={Karthik} title="Foss" fees="Rs.10,000" />
-        <Trackcard img={Track1} title="Foss" fees="Rs.10,000" />
-        <Trackcard img={Track1} title="Foss" fees="Rs.10,000" />
+        {/* <Trackcard img={Second} title="Foss" fees="Rs.10,000" />
+        <Trackcard img={First} title="Foss" fees="Rs.20,000" />
+        <Trackcard img={Third} title="Foss" fees="Rs.5,000" /> */}
+        <div className={styles.trackcard}>
+            <Image className={styles.trackcardimg}src={Second} alt="second"  />
+            <div className={styles.trackcardtext}>
+              <h3 className={styles.trackcardtitle}>Prize</h3>
+              <h3 className={styles.trackcardfees}>Rs.10,000</h3>
+            </div>
+            {/* <button onClick={toggleModal} className={styles.morebtn}>Read More</button> */}
+          </div>
+          <div className={styles.trackcard}>
+            <Image className={styles.trackcardimg1}src={First} alt="first"  />
+            <div className={styles.trackcardtext}>
+              <h3 className={styles.trackcardtitle}>Prize</h3>
+              <h3 className={styles.trackcardfees}>Rs.20,000</h3>
+            </div>
+            {/* <button onClick={toggleModal} className={styles.morebtn}>Read More</button> */}
+          </div>
+          <div className={styles.trackcard}>
+            <Image className={styles.trackcardimg3}src={Third} alt="Third"  />
+            <div className={styles.trackcardtext}>
+              <h3 className={styles.trackcardtitle}>Prize</h3>
+              <h3 className={styles.trackcardfees}>Rs.5000</h3>
+            </div>
+            {/* <button onClick={toggleModal} className={styles.morebtn}>Read More</button> */}
+          </div>
         </div>
 
    </div>
