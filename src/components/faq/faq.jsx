@@ -9,16 +9,16 @@ const Faq = () => {
         <div className={styles.faqcontainer}>
           
         <Faqcard 
-          question="What is the difference between a 3D model and a 3D scan?"
-          answer="A 3D model is a digital representation of an object. A 3D scan is a digital representation of a physical object. 3D models are created using 3D modeling software, while 3D scans are created using 3D scanning hardware."
+          question="Who Can Attend?"
+          answer="The event is open to both college students and working professionals."
         />
         <Faqcard
-          question="What is the difference between a 3D model and a 3D scan?"
-          answer="A 3D model is a digital representation of an object. A 3D scan is a digital representation of a physical object. 3D models are created using 3D modeling software, while 3D scans are created using 3D scanning hardware."
+          question="How Much Does It Cost To Participate?"
+          answer="This event is completely free! We’ll also provide you with a plethora of resources and tools to hack with as well."
         />
         <Faqcard
-          question="What is the difference between a 3D model and a 3D scan?"
-          answer="A 3D model is a digital representation of an object. A 3D scan is a digital representation of a physical object. 3D models are created using 3D modeling software, while 3D scans are created using 3D scanning hardware."
+          question="Can I Participate Without A Computer Science Background?"
+          answer="Certainly! A computer science background is not a requirement for participation. Your creativity and innovation are not limited by technical skills, and you can always learn the necessary tools and technologies. The goal is to keep learning!"
         />
         </div>
     </div>

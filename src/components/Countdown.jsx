@@ -80,10 +80,8 @@ const CountdownTimer = ({ targetDate }) => {
         <p className="text-white font-normal font-sans text-sm text-left lg:text-xl">
           MEC.Hack is gearing up to be an electrifying 24-hour hackathon,
           setting the stage for the upcoming MEC.Conf. Mark your calendars for
-          the event happening on at Model Engineering College, Thrikkakara. This
-          year, our theme, &quot;Bridging gaps through Technology&quot; takes center
-          stage, emphasizing the significance of using technology to address
-          critical issues. MEC.Hack serves as a catalyst to advance this
+          the event happening on at Model Engineering College, Thrikkakara. Our event aims to tackle the challenges prevalent in the Fintech industry, emphasizing the significance of using technology to address critical financial issues for both businesses and everyday individuals.
+           MEC.Hack serves as a catalyst to advance this
           mission, fostering innovation and creative solutions that can bridge
           divides and drive positive change. Join us in this incredible
           hackathon as we harness the power of technology to make a difference.
