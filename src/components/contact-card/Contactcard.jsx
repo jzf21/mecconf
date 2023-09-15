@@ -30,13 +30,13 @@ function Contactcard(props) {
           <p className={styles.contactcarddesignation}>{props.designation}</p>
           <div className={styles.contactcardicons}>
             <a href={"tel:" + props.mobile}>
-              <Image src={phone} alt="phone" className={styles.smallicons} />
+              <Image priority={true} src={phone} alt="phone" className={styles.smallicons} />
             </a>
             <a href={"mailto:"+ props.email}>
-              <Image src={email} alt="email" className={styles.bigicons} />
+              <Image priority={true} src={email} alt="email" className={styles.bigicons} />
             </a>
             <a href={props.link}>
-              <Image src={linkedin} alt="linkedin" className={styles.smallicons}/>
+              <Image priority={true} src={linkedin} alt="linkedin" className={styles.smallicons}/>
             </a>
           </div>
         </div>

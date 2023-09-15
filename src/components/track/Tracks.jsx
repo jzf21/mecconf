@@ -46,30 +46,32 @@ const Tracks = () => {
         {/* <Trackcard img={Second} title="Foss" fees="Rs.10,000" />
         <Trackcard img={First} title="Foss" fees="Rs.20,000" />
         <Trackcard img={Third} title="Foss" fees="Rs.5,000" /> */}
-        <div className={styles.trackcard}>
-            <Image className={styles.trackcardimg}src={Second} alt="second"  />
-            <div className={styles.trackcardtext}>
-              <h3 className={styles.trackcardtitle}>Prize</h3>
-              <h3 className={styles.trackcardfees}>Rs.5,000</h3>
-            </div>
-            {/* <button onClick={toggleModal} className={styles.morebtn}>Read More</button> */}
-          </div>
-          <div className={styles.trackcard}>
-            <Image className={styles.trackcardimg1}src={First} alt="first"  />
-            <div className={styles.trackcardtext}>
-              <h3 className={styles.trackcardtitle}>Prize</h3>
-              <h3 className={styles.trackcardfees}>Rs.7,500</h3>
-            </div>
-            {/* <button onClick={toggleModal} className={styles.morebtn}>Read More</button> */}
-          </div>
-          <div className={styles.trackcard}>
-            <Image className={styles.trackcardimg3}src={Third} alt="Third"  />
-            <div className={styles.trackcardtext}>
-              <h3 className={styles.trackcardtitle}>Prize</h3>
-              <h3 className={styles.trackcardfees}>Rs.2,500</h3>
-            </div>
-            {/* <button onClick={toggleModal} className={styles.morebtn}>Read More</button> */}
-          </div>
+        <div className={`${styles.trackcard} ${styles.mobileOrder2}`}>
+    <Image priority={true} className={styles.trackcardimg1} src={First} alt="first" />
+    <div className={styles.trackcardtext}>
+      <h3 className={styles.trackcardtitle}>Prize</h3>
+      <h3 className={styles.trackcardfees}>Rs.7,500</h3>
+    </div>
+  </div>
+
+  {/* Second Prize */}
+  <div className={`${styles.trackcard} ${styles.mobileOrder1}`}>
+    <Image priority={true} className={styles.trackcardimg} src={Second} alt="second" />
+    <div className={styles.trackcardtext}>
+      <h3 className={styles.trackcardtitle}>Prize</h3>
+      <h3 className={styles.trackcardfees}>Rs.5,000</h3>
+    </div>
+  </div>
+
+  {/* Third Prize */}
+  <div className={`${styles.trackcard} ${styles.mobileOrder3}`}>
+    <Image priority={true} className={styles.trackcardimg3} src={Third} alt="third" />
+    <div className={styles.trackcardtext}>
+      <h3 className={styles.trackcardtitle}>Prize</h3>
+      <h3 className={styles.trackcardfees}>Rs.2,500</h3>
+    </div>
+  </div>
+
         </div>
 
    </div>

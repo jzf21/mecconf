@@ -223,3 +223,30 @@
     font-size: 2rem;
   }
 }
+.mobileOrder1 {
+    order: 1;
+  }
+  
+  .mobileOrder2 {
+    order: 2;
+  }
+  
+  .mobileOrder3 {
+    order: 3;
+  }
+  
+  /* Change order for mobile devices (adjust the breakpoint as needed) */
+  @media (max-width: 768px) {
+    .mobileOrder1 {
+      order: 2;
+    }
+  
+    .mobileOrder2 {
+      order: 1;
+    }
+  
+    .mobileOrder3 {
+      order: 3;
+    }
+  }
+  

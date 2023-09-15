@@ -388,7 +388,14 @@ body {
     border-left: 0.01px solid #4e4e6d;
     border-right: 0.01px solid #4e4e6d;
     border-top: 0.01px solid #4e4e6d;
-    background-color: darkblue;
-    background-image: none;
+    background: hsla(263, 92%, 5%, 1);
+
+background: linear-gradient(180deg, hsla(263, 92%, 5%, 1) 0%, hsla(242, 50%, 16%, 1) 38%, hsla(231, 52%, 31%, 1) 100%);
+
+background: -moz-linear-gradient(180deg, hsla(263, 92%, 5%, 1) 0%, hsla(242, 50%, 16%, 1) 38%, hsla(231, 52%, 31%, 1) 100%);
+
+background: -webkit-linear-gradient(180deg, hsla(263, 92%, 5%, 1) 0%, hsla(242, 50%, 16%, 1) 38%, hsla(231, 52%, 31%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0A0118", endColorst)
   }
   }
