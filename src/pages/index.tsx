@@ -37,11 +37,11 @@ export default function Home() {
       <NoSSR targetDate={new Date('September 23, 2023 09:30:00').getTime()}/>
       
 
-      
+      <div id="problem" className="tracksection">
       <Problem/>
-       
+        
 
-      <div id="tracks" className="tracksection">
+      
       <Tracks/>
         <Register/> 
       </div>
@@ -61,7 +61,7 @@ export default function Home() {
       
       {/* <Events/> */}
       {/* <Openhack/> */}
-      <div id="contact" className="contactsection">
+      <div id="contact">
       <Contact/>
       </div>
       <Footer/>

@@ -4,7 +4,8 @@ const problem = () => {
   return (
     <div>
       <div className="" >
-      <div className="py-8 px-4 mx-auto  max-w-screen-xl text-left lg:py-16 lg:px-12 flex flex-col justify-evenly items-center gap-8">
+      <h2 className='text-white uppercase text-center font-bold tracking-wider text-[1.5rem] md:text-[2rem] lg:text-[2.5rem]'>Fintech</h2>
+      <div className="pt-8 px-4 mx-auto  max-w-screen-xl text-left lg:pt-16 lg:px-12 flex flex-col justify-evenly items-center gap-8">
         <h2 className='text-white uppercase text-left font-bold tracking-wider text-[1.5rem] md:text-[2rem] lg:text-[2.5rem]'>Problem Statements</h2>
         <p className='py-8 text-white font-normal mb-8 font-sans text-sm lg:text-xl'>
 

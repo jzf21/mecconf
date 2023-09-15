@@ -21,7 +21,15 @@
     transition: all 0.3s;
 }
 
+.faqcardshow
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 
+
+}
 .faqcardanswer
 {   
     animation: fadeInDown 0.8s;
@@ -47,6 +55,7 @@
     top: 0;
     right: 100%; */
     font-size: 200%;
+    
 }
 .faqcardclose
 {

@@ -13,7 +13,7 @@ type Props = {}
 const Hero = (props: Props) => {
   return (
     <section className=" ">
-      <div className="py-16 px-4 mx-auto sm:h-[100vh] max-w-screen-xl text-center lg:py-16 lg:px-12 flex flex-col items-center sm:justify-center gap-8 md:justify-evenly">
+      <div className="py-8 px-4 mx-auto sm:h-[100vh] max-w-screen-xl text-center lg:py-16 lg:px-12 flex flex-col items-center sm:justify-center gap-8 md:justify-evenly">
           <div className='flex flex-row justify-center items-center gap-12 max-h- mt-4  '>
         <Image src={computersociety} alt="logo" className="h-16 w-16 sm:h-24 sm:w-24 md:h-36 md:w-36 mt-4" />
        <Image src={iee} alt="logo" className="h-16 w-16 sm:h-24 sm:w-24 md:h-36 md:w-36 mt-4 " />
@@ -27,14 +27,14 @@ const Hero = (props: Props) => {
         </h1> */}
         <Image src={heading} alt="logo" className=" " />
         <h2 className='text-white italic font-light text-[0.8rem] lg:text-[1.7rem] md:text-[1.4rem] -mt-12 md:-mt-20'>Powered by </h2>
-        <div className='flex justify-center'><Image src={Sponser} alt="logo" className=" h-8 w-36 md:h-16 md:w-72 mt-4" /></div>
+        <div className='flex justify-center'><Image src={Sponser} alt="logo" className=" h-8 w-36 md:h-8 md:w-72 mt-4" /></div>
        </div>
        
       
         <div className="px-4 mx-auto flex flex-col items-center gap-4 text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36 uppercase">
           <div className='flex flex-row gap-4 justify-center items-center'>
-            <Image src={date} alt="logo" className="h-6 w-6 sm:h-8 sm:w-8 md:h-10 md:w-10 " />
-            <p className='text-white text-[0.6rem] sm:text-lg' >September 23,24</p>
+            <Image src={date} alt="logo" className="h-6 w-6 sm:h-8 sm:w-8 md:h-10 md:w-10 mt-5" />
+            <p className='text-white text-[0.6rem] mt-5 sm:text-lg' >September 23,24</p>
           </div>
             {/* <div className='hidden min-[420px]:flex flex-row gap-4  justify-center items-center'>
             <Image src={location} alt="logo" className="h-6 w-6 sm:h-8 sm:w-8 md:h-10 md:w-10 " />

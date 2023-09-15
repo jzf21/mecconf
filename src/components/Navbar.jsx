@@ -84,15 +84,17 @@ const Navbar = () => {
         <Link
           className="group cursor-pointer text-white transition-all duration-300 ease-in-out md:ml-8"
           to="tracks"
-          spy={true} smooth={true} offset={-50} duration={500}
+          onClick={handleHamburger}
+          spy={true} smooth={true} offset={-100} duration={500}
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration ease-out">
-          Tracks and Prizes
+          Prizes
           </span>
         </Link>
         <Link
           className="group cursor-pointer text-white transition-all duration-300 ease-in-out md:ml-8"
           to="about"
+           onClick={handleHamburger}
           spy={true} smooth={true} offset={-50} duration={500}
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration ease-out">
@@ -102,6 +104,7 @@ const Navbar = () => {
         <Link
           className="group cursor-pointer text-white transition-all duration-300 ease-in-out md:ml-8"
           to="faq"
+          onClick={handleHamburger}
           spy={true} smooth={true} offset={-150} duration={500}
         >
           <span className="bg-left-bottom text-xl font-normal bg-gradient-to-r from-red to-red bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration ease-out">
