@@ -379,3 +379,16 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+@media (max-width: 639px){
+  .tracksection
+  {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    border-radius: 10px;
+    border-left: 0.01px solid #4e4e6d;
+    border-right: 0.01px solid #4e4e6d;
+    border-top: 0.01px solid #4e4e6d;
+    background-color: darkblue;
+    background-image: none;
+  }
+  }
