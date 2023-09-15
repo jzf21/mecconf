@@ -49,7 +49,7 @@ const Hero = (props: Props) => {
          
           
         </div>
-        <button className='bg-[#4A4AFF] text-white tracking-wide text-[0.8rem] lg:text-[1.7rem] md:text-[1.4rem]  uppercase  px-10 py-2 rounded-[99px] mt-4 hover:bg-[#3B3BFF]'>Register</button>
+        <a target="_blank"href="https://docs.google.com/forms/d/1zi6ZRCTMxTySuQ-l9Zkolu9wXVFU13YWxpk74cNRmyE/viewform?ts=6503f2c4&edit_requested=true"><button className='bg-[#4A4AFF] text-white tracking-wide text-[0.8rem] lg:text-[1.7rem] md:text-[1.4rem]  uppercase  px-10 py-2 rounded-[99px] mt-4 hover:bg-[#3B3BFF]'>Register</button></a>
       </div>
     </section>
   );

@@ -10,7 +10,7 @@ import Register from "../components/registration/registration"
 import Tracks from "@/components/track/Tracks"
 import Faq from "../components/faq/faq"
 import Footer from "../components/bottomthing/bottomthing"
-import Problem from "../components/problem/problem"
+import Problem from "../components/Problem"
 
 
 import Navbar from '@/components/Navbar'
