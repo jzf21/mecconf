@@ -10,6 +10,7 @@ import Register from "../components/registration/registration"
 import Tracks from "@/components/track/Tracks"
 import Faq from "../components/faq/faq"
 import Footer from "../components/bottomthing/bottomthing"
+import Problem from "../components/problem/problem"
 
 
 import Navbar from '@/components/Navbar'
@@ -35,6 +36,11 @@ export default function Home() {
     {/* </div> */}
       <NoSSR targetDate={new Date('September 23, 2023 09:30:00').getTime()}/>
       
+
+      
+      <Problem/>
+       
+
       <div id="tracks" className="tracksection">
       <Tracks/>
         <Register/> 

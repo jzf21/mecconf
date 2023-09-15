@@ -7,6 +7,7 @@ import heading from "../assets/heading.svg"
 import foss from "../assets/fosspng.svg"
 import location from "../assets/location.svg"
 import date from "../assets/ic_round-date-range.svg"
+import Sponser from "../assets/sponser.png"
 type Props = {}
 
 const Hero = (props: Props) => {
@@ -25,7 +26,8 @@ const Hero = (props: Props) => {
           MEC.HACK
         </h1> */}
         <Image src={heading} alt="logo" className=" " />
-        <h2 className='text-white italic font-light text-[0.8rem] lg:text-[1.7rem] md:text-[1.4rem] -mt-12 md:-mt-20'>Bridging Gaps Through Technology</h2>
+        <h2 className='text-white italic font-light text-[0.8rem] lg:text-[1.7rem] md:text-[1.4rem] -mt-12 md:-mt-20'>Powered by </h2>
+        <div className='flex justify-center'><Image src={Sponser} alt="logo" className=" h-8 w-36 md:h-16 md:w-72 mt-4" /></div>
        </div>
        
       
