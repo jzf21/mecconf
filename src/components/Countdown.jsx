@@ -38,8 +38,8 @@ const CountdownTimer = ({ targetDate }) => {
   }
 
   return (
-    <div className=" bg-cover py-16 min-h-screen">
-      <h3 className="text-[1.7rem] lg:text-[2.5rem] md:text-[2.3rem] text-center text-[#4A4AFF] mb-16 md:mb-16 lg:mb-20 uppercase font-semibold">
+    <div className=" bg-cover py-32 min-h-screen">
+      <h3 className="text-[1.7rem] lg:text-[2.5rem] md:text-[2.3rem] text-center text-[#4A4AFF] mb-24 md:mb-16 lg:mb-20 uppercase font-semibold">
         Countdown
       </h3>
       <div className="w-full min-h-[200px] flex flex-col items-center justify-center ">

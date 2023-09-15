@@ -4,7 +4,7 @@ import styles from './contact.module.css'
 import Karthik from "../../assets/karthik.png";
 import Stephen from "../../assets/stephen.jpg";
 import Jithin from "../../assets/jithin.JPG";
-import Alan from "../../assets/alan.jpg";
+import Alan from "../../assets/alancropped.jpeg";
 const contact = () => {
   return (
     <div className={styles.contactbody}>
