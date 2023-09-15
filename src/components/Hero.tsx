@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
 import logo from '../../public/assets/MEC HACK LOGO WHITE T 1.svg'

@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import ContactCard from '../contact-card/Contactcard.jsx'
 import styles from './contact.module.css'

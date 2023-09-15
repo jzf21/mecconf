@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import styles from './registration.module.css'
 import ticket from '../../assets/noto-v1_ticket.svg'
