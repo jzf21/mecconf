@@ -45,9 +45,9 @@ export default function Home() {
         <Register/> 
       </div>
       
-      <Sponser/>
+      <div id='about'><Sponser /></div>
       
-      <div id="about"><About/></div>
+      <div><About/></div>
       
      
       
