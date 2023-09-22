@@ -28,7 +28,7 @@ const Hero = (props: Props) => {
         </h1> */}
         <Image priority={true} src={heading} alt="logo" className=" " />
         <h2 className='text-white italic font-light text-[0.8rem] lg:text-[1.7rem] md:text-[1.4rem] -mt-12 md:-mt-20'>Powered by </h2>
-        <div className='flex justify-center'><Image priority={true} src={Sponser} alt="logo" className=" h-4 w-36 md:h-8 md:w-72 mt-4" /></div>
+        <div className='flex justify-center'><a target="_blank"href="https://www.algorithma.tech/"><Image priority={true} src={Sponser} alt="logo" className=" h-4 w-36 md:h-8 md:w-72 mt-4" /></a></div>
        </div>
        
       

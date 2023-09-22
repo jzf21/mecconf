@@ -11,8 +11,7 @@ import Tracks from "@/components/track/Tracks"
 import Faq from "../components/faq/faq"
 import Footer from "../components/bottomthing/bottomthing"
 import Problem from "../components/Problem"
-
-
+import Sponser from "../components/sponser/Sponser"
 import Navbar from '@/components/Navbar'
 import bgmain from'../assets/bgmain.svg'
 
@@ -45,6 +44,8 @@ export default function Home() {
       <Tracks/>
         <Register/> 
       </div>
+      
+      <Sponser/>
       
       <div id="about"><About/></div>
       
